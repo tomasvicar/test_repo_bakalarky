@@ -1,0 +1,19 @@
+name: mamba_env
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - numpy
+  - matplotlib
+  - scikit-image
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pip
+  - pip:
+    - bayesian-optimization
+  
+
